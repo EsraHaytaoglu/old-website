@@ -1,0 +1,113 @@
+@import url("");
+#cursorBlob {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(120deg, #FF1744, #E040FB, #2979FF, #00E5FF, #76FF03);
+  background-size: 1600% 1600%;
+  position: absolute;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 1;
+  -webkit-transition: 0.15s linear;
+  transition: 0.15s linear;
+  -webkit-animation: blobRadius 5s ease infinite, blobBackground 15s ease infinite;
+          animation: blobRadius 5s ease infinite, blobBackground 15s ease infinite;
+}
+
+@-webkit-keyframes blobRadius {
+  0%, 100% {
+    border-radius: 43% 77% 80% 40% / 40% 40% 80% 80%;
+  }
+  20% {
+    border-radius: 47% 73% 61% 59% / 47% 75% 45% 73%;
+  }
+  40% {
+    border-radius: 46% 74% 74% 46% / 74% 58% 62% 46%;
+  }
+  60% {
+    border-radius: 47% 73% 61% 59% / 40% 40% 80% 80%;
+  }
+  80% {
+    border-radius: 50% 70% 52% 68% / 51% 61% 59% 69%;
+  }
+}
+
+@keyframes blobRadius {
+  0%, 100% {
+    border-radius: 43% 77% 80% 40% / 40% 40% 80% 80%;
+  }
+  20% {
+    border-radius: 47% 73% 61% 59% / 47% 75% 45% 73%;
+  }
+  40% {
+    border-radius: 46% 74% 74% 46% / 74% 58% 62% 46%;
+  }
+  60% {
+    border-radius: 47% 73% 61% 59% / 40% 40% 80% 80%;
+  }
+  80% {
+    border-radius: 50% 70% 52% 68% / 51% 61% 59% 69%;
+  }
+}
+
+@-webkit-keyframes blobBackground {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes blobBackground {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  color: #fff;
+  list-style: none;
+  cursor: pointer;
+  font-size: 10vw;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: 0.25s ease;
+  transition: 0.25s ease;
+}
+
+.nav__link:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.nav__link:hover {
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+}
+/*# sourceMappingURL=a.css.map */

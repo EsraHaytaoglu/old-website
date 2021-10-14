@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Qahiri', sans-serif;
+    text-decoration: none;
+    
+    
+}
+    
+    
+body {
+
+    min-height: 100vh;  
+}
+#fil {
+    height: 60px;
+    width: 70px;
+}
+div p a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18vh;
+}
+  
+p {
+    font-weight: 700;
+    text-align: center;
+    
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+}
+  
+@keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+}
+}
+  .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:700px){
+
+  .footer {
+    margin-top:100px;
+    
+  }
+}

@@ -3,7 +3,8 @@
     padding: 0;
     /* font-family: 'Fuggles'; */
     font-family: 'Qahiri', sans-serif;
-    text-decoration: none;   
+    text-decoration: none;  
+
     
     
 }
@@ -95,8 +96,8 @@ bg-white {
 
 body{
 
-      display: block;
-        /* background-image: url(../images/dalga.gif) */
+      display: flex;
+     /* background-image: url(../images/dalga.gif); */
 
       background-size: cover;
       background-repeat: no-repeat;
@@ -119,11 +120,7 @@ body{
 
     
 }
-/* 
-img {
-    opacity: 0.4;
-    filter: alpha(opacity=40);
-} */
+
 
 .jt {
   position: relative;
@@ -199,6 +196,7 @@ img {
 
 
 
+
 .debug .jt__row:nth-child(even) {
   color: black;
   background: white;
@@ -225,11 +223,11 @@ img {
   .jt{
     margin-left: 25%;
   }
+
 }
 #my-projects {
   animation: shine 5s linear infinite;
 
- 
   
 
 

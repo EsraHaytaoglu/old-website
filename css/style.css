@@ -96,7 +96,7 @@ bg-white {
 
 body{
 
-      display: flex;
+     display: flex;
      /* background-image: url(../images/dalga.gif); */
 
       background-size: cover;
@@ -227,11 +227,6 @@ body{
 }
 #my-projects {
   animation: shine 5s linear infinite;
-
-  
-
-
-
 }
 
 

@@ -32,7 +32,7 @@ $(window).on("load", function() {
     });
     
     $(document).on( 'click' , '.a-more' , function(){
-      $(this).prev('p').toggleClass('isToggle');
+      $(this).prev('pre').toggleClass('isToggle');
       $(this).toggleClass('isActive');
     });
     
@@ -71,7 +71,7 @@ $(window).on("load", function() {
           i.find('.mw-ext-cite-error').remove();
            setTimeout(function() {
               $(id_target).find('.o-modal__title').html( data.parse.title).fadeIn(300);
-              $(id_target).find('.o-modal__inner').html($(i).find('p'));
+              $(id_target).find('.o-modal__inner').html($(i).find('pre'));
               $(id_target).find('.a-loader').hide();
             }, 1000);
           }

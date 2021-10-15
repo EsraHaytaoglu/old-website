@@ -15,6 +15,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/my-projects.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/a.css" />
     <link rel="shortcut icon" href="images/project.svg" type="image/x-icon" />
@@ -30,6 +31,7 @@
   </head>
   <body class="bg-dark text-light">
     <!-- Navbar start -->
+    <div class="main">
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent mt- pt-1"
       style="font-size: xx-large; background: transparent"
@@ -49,14 +51,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse mx-3" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" >
           <li class="nav-item active">
-            <a class="a nav-link pr-4" href="index.html">
+            <a class="a nav-link pr-4" href="index.html" style="font-size: xx-large;">
               Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="a nav-link pr-4" href="my-projects.html"> My Projects</a>
+            <a class="a nav-link pr-4" href="my-projects.html" style="font-size: xx-large;"> My Projects</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -67,6 +69,7 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
+              style="font-size: xx-large"
             >
               My Blog
             </a>
@@ -93,7 +96,113 @@
         </ul>
       </div>
     </nav>
-    <h1>My projects</h1>
+    <div class="a-container">
+      <h1 style="text-align:center;">My Projects</h1>
+      <div class="o-card_container">
+         <div class="o-card" id="Nikola_Tesla">
+            <div class="o-card_header">
+               <div class="o-card_headerHeroImg"  data-image="https://s3.eu-west-2.amazonaws.com/pirolab/images/tesla-bg.jpg"></div>
+               <ul class="o-card-headerList">
+                  <li class="o-card-headerList--openIcons ">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-facebook"></i></a>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-twitter"></i></a>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-linkedin"></i></a>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-github"></i></a>
+                  </li>
+               </ul>
+               <div class="o-card_logo" style="background:url(/images/logo.jpeg) center no-repeat;"></div>
+            </div>
+            <div class="o-card_body">
+               <h2 class="o-card_title">Nikola Tesla</h2>
+               <h3 class="o-card_subTitle">The Misunderstood</h3>
+               <p class="o-card_paragraph">Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system.
+                  Born and raised in the Austrian Empire, Tesla received an advanced education in engineering and physics in the 1870s and gained practical experience in the early 1880s working in ......
+               </p>
+            </div>
+            <div class="o-card_footer">
+               <a data-href="Nikola_Tesla" target="_blank" class="a-readMore" data-modal="#first">Read More <i class="icon-right"></i></a>
+            </div>
+            <div class="o-modal">
+               <span class="o-modal__close">
+               <i class="icon-cancel-circled"></i>
+               </span>
+               <h2 class="o-modal__title"></h2>
+               <div class="o-modal__inner"></div>
+            </div>
+            <div class="a-loader">
+               <div class="a-loader__bar"></div>
+               <div class="a-loader__bar"></div>
+               <div class="a-loader__bar"></div>
+            </div>
+         </div>
+
+
+         
+         <div class="o-card" id="Ernest_Hemingway">
+            <div class="o-card_header">
+               <div class="o-card_headerHeroImg"  data-image="https://s3.eu-west-2.amazonaws.com/pirolab/images/Hemingway_and_Marlins.jpg"></div>
+               <ul class="o-card-headerList">
+                  <li class="o-card-headerList--openIcons ">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-facebook"></i></a>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-twitter"></i></a>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-linkedin"></i></a>
+                  </li>
+                  <li class="o-card-headerList--item">
+                     <a class="o-card-headerList--link" href="#"><i class="icon-github"></i></a>
+                  </li>
+               </ul>
+               <div class="o-card_logo" style="background:url(https://s3.eu-west-2.amazonaws.com/pirolab/images/hemingway.jpg) center no-repeat;"></div>
+            </div>
+            <div class="o-card_body">
+               <h2 class="o-card_title">Ernest Hemingway</h2>
+               <h3 class="o-card_subTitle">The Brave</h3>
+               <p class="o-card_paragraph">Ernest Miller Hemingway (July 21, 1899 – July 2, 1961) was an American novelist, short story writer, and journalist. His economical and understated style had a strong influence on 20th-century fiction, while his life of adventure and his public image influenced later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and won the Nobel Prize in Literature in 1954. He published seven novels, six short story collections, and two non-fiction works....</p>
+            </div>
+            <div class="o-card_footer">
+               <a data-href="Ernest_Hemingway" target="_blank" class="a-readMore" data-modal="#first">Read More <i class="icon-right"></i></a>
+            </div>
+            <div class="o-modal">
+               <span class="o-modal__close">
+               <i class="icon-cancel-circled"></i>
+               </span>
+               <h2 class="o-modal__title"></h2>
+               <div class="o-modal__inner"></div>
+            </div>
+            <div class="a-loader">
+               <div class="a-loader__bar"></div>
+               <div class="a-loader__bar"></div>
+               <div class="a-loader__bar"></div>
+            </div>
+         </div>
+         
+         
+      </div>
+   </div>
+   </div>
+   
+  
+  
+  </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -115,5 +224,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
   </body>
+  <script src="js/my-projects.js"></script>
   <script src="js/app.js"></script>
 </html>

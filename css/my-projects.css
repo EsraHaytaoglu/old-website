@@ -39,6 +39,8 @@ h1 {
 }
 
 .o-card_container {
+  justify-content: center;
+  text-align: center;
   position: relative;
   z-index: 1;
   display: -webkit-box;

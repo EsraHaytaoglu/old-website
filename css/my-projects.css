@@ -288,8 +288,7 @@ h1 {
   overflow: hidden;
   -webkit-transition: all .7s;
   transition: all .7s;
-  -webkit-background-clip: padding-box;
-  -moz-border-radius: 360px;
+
 }
 
 .o-card_header::after {

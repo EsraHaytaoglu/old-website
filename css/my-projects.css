@@ -494,64 +494,23 @@ h1 {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-
-.o-card-headerList--item {
+.icon{
   position: absolute;
   top: 10px;
+  margin-right: 3%;
   right: 0;
   width: 40px;
   height: 40px;
-  -webkit-transform: scale(0.15, 0.15);
-          transform: scale(0.15, 0.15);
   line-height: 40px;
   text-align: center;
   font-size: 1.5rem;
   background: rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-  -webkit-transition: all .4s;
-  transition: all .4s;
-  opacity: 1;
-  margin: 0;
-  padding: 0;
-  z-index: 5;
+
 }
 
-.o-card-headerList.isOpen .o-card-headerList--item {
-  opacity: 1;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-}
-
-.o-card-headerList.isOpen .o-card-headerList--item:nth-child(2) {
-  right: 55px;
-  -webkit-transition-delay: .10s;
-          transition-delay: .10s;
-}
-
-.o-card-headerList.isOpen .o-card-headerList--item:nth-child(3) {
-  right: 100px;
-  -webkit-transition-delay: .15s;
-          transition-delay: .15s;
-}
-
-.o-card-headerList.isOpen .o-card-headerList--item:nth-child(4) {
-  right: 145px;
-  -webkit-transition-delay: .20s;
-          transition-delay: .20s;
-}
-
-.o-card-headerList.isOpen .o-card-headerList--item:nth-child(5) {
-  right: 190px;
-  -webkit-transition-delay: .25s;
-          transition-delay: .25s;
-}
-
-.o-card-headerList--item:hover {
-  background: #109bce;
+.icon:hover {
+  background: orangered;
   color: white;
 }
 

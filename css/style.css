@@ -45,10 +45,10 @@ bg-white {
 .social-media .github a:hover{
     background: rgb(189, 60, 13);
 }
-.social-media a i{
+.social-media a img{
     transition:0.5s all ;
 }
-.social-media a:hover > i{
+.social-media a:hover > img{
     transform: scale(1.5);
     transform:rotate(360deg);
 }
